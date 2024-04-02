@@ -13,3 +13,9 @@ then use this template
 ```sh
 nix flake init -t "github:seenark/nix-templates#nodejs"
 ```
+
+or use only it's shell
+
+```sh
+nix develop "github:seenark/nix-templates#nodejs"
+```
