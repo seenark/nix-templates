@@ -7,3 +7,9 @@ Here are various useful Nix templates for programming that I use. I employ Nix f
 you need to install nix
 
 then use this template
+
+### nodejs
+
+```sh
+nix flake init -t "github:seenark/nix-templates#nodejs"
+```
