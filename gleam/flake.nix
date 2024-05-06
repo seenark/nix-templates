@@ -30,6 +30,7 @@
           packages = with pkgs; [
             gleam
             erlang_26
+            rebar3
           ];
 
           shellHook = ''
