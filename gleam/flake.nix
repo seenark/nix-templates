@@ -28,12 +28,13 @@
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
           packages = with pkgs; [
-            nodejs_22
-            corepack_22
+            gleam
+            erlang_26
+            rebar3
           ];
 
           shellHook = ''
-            echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs! 󰎙        󰈸 🌟🌟🌟"
+            echo "⭐⭐🌟 Welcome to a  Nix development environment for Gleam!   ⭐ 😎😎😎 "
           '';
         };
       });

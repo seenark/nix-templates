@@ -12,6 +12,10 @@
         path = ./nodejs;
         description = "Init Nodejs project";
       };
+      gleam = {
+        path = ./gleam;
+        description = "Init Gleam project";
+      };
     };
 
   };
