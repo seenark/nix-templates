@@ -6,7 +6,7 @@ Here are various useful Nix templates for programming that I use. I employ Nix f
 
 you need to install nix
 
-then use this template
+then select development environment template
 
 ### nodejs
 
@@ -18,4 +18,16 @@ or use only it's shell
 
 ```sh
 nix develop "github:seenark/nix-templates#nodejs"
+```
+
+### Gleam
+
+```sh
+nix flake init -t "github:seenark/nix-templates#gleam"
+```
+
+or use only it's shell
+
+```sh
+nix develop "github:seenark/nix-templates#gleam"
 ```
