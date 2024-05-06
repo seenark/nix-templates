@@ -33,7 +33,7 @@
           ];
 
           shellHook = ''
-            echo "⭐⭐🌟 Welcome to a  Nix development environment for Nodejs!   ⭐ 😎😎😎 "
+            echo "⭐⭐🌟 Welcome to a  Nix development environment for Gleam!   ⭐ 😎😎😎 "
           '';
         };
       });
