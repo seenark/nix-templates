@@ -46,6 +46,18 @@ or use only it's shell
 nix develop "github:seenark/nix-templates#nodejs_18"
 ```
 
+### Elixir
+
+```sh
+nix flake init -t "github:seenark/nix-templates#elixir"
+```
+
+or use only it's shell
+
+```sh
+nix develop "github:seenark/nix-templates#elixir"
+```
+
 ### Gleam
 
 ```sh
