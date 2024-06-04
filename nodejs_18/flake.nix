@@ -28,12 +28,12 @@
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
           packages = with pkgs; [
-            nodejs_22
-            corepack_22
+            nodejs_18
+            corepack_18
           ];
 
           shellHook = ''
-            echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs! v.22 󰎙        󰈸 🌟🌟🌟"
+            echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs v.18! 󰎙        󰈸 🌟🌟🌟"
           '';
         };
       });

@@ -16,6 +16,10 @@
         path = ./nodejs;
         description = "Init Nodejs project";
       };
+      nodejs_18 = {
+        path = ./nodejs_18;
+        description = "Init Nodejs v.18 project";
+      };
       gleam = {
         path = ./gleam;
         description = "Init Gleam project";
