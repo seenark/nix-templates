@@ -22,6 +22,8 @@ nix develop "github:seenark/nix-templates#bun"
 
 ### nodejs
 
+#### latest (v.22)
+
 ```sh
 nix flake init -t "github:seenark/nix-templates#nodejs"
 ```
@@ -30,6 +32,18 @@ or use only it's shell
 
 ```sh
 nix develop "github:seenark/nix-templates#nodejs"
+```
+
+#### v.18
+
+```sh
+nix flake init -t "github:seenark/nix-templates#nodejs_18"
+```
+
+or use only it's shell
+
+```sh
+nix develop "github:seenark/nix-templates#nodejs_18"
 ```
 
 ### Gleam
