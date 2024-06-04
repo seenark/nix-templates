@@ -20,6 +20,10 @@
         path = ./nodejs_18;
         description = "Init Nodejs v.18 project";
       };
+      elixir = {
+        path = ./elixir;
+        description = "Init Elixir project";
+      };
       gleam = {
         path = ./gleam;
         description = "Init Gleam project";
