@@ -8,6 +8,10 @@
   outputs = { self, nixpkgs }: {
 
     templates = {
+      bun = {
+        path = ./bun;
+        description = "Init Bun project";
+      };
       nodejs = {
         path = ./nodejs;
         description = "Init Nodejs project";
