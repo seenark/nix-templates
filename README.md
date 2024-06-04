@@ -17,7 +17,7 @@ nix flake init -t "github:seenark/nix-templates#bun"
 or use only it's shell
 
 ```sh
-nix develop "github:seenark/nix-templates#gleam"
+nix develop "github:seenark/nix-templates#bun"
 ```
 
 ### nodejs
