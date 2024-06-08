@@ -30,7 +30,7 @@
           packages = with pkgs; [
             elixir
             # erlang_26
-            # rebar3
+            rebar3
           ];
 
           shellHook = ''
