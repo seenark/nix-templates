@@ -3,11 +3,12 @@
 
   # Flake inputs
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
   # Flake outputs
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs, nixpkgs-unstable }:
     let
       # Systems supported
       allSystems = [
@@ -20,6 +21,7 @@
       # Helper to provide system-specific attributes
       forAllSystems = f: nixpkgs.lib.genAttrs allSystems (system: f {
         pkgs = import nixpkgs { inherit system; };
+        pkgs-unstable = import nixpkgs-unstable { inherit system; };
       });
     in
     {
@@ -27,7 +29,7 @@
       devShells = forAllSystems ({ pkgs }: {
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
-          packages = with pkgs; [
+          packages = with pkgs-unstable; [
             bun
           ];
 
