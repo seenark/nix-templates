@@ -28,12 +28,14 @@
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
           packages = with pkgs; [
-            nodejs_22
+            # nodejs_22
+            nodejs-slim_22
             corepack_22
           ];
 
           shellHook = ''
             echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs! v.22 󰎙        󰈸 🌟🌟🌟"
+            alias p="pnpm"
           '';
         };
       });
