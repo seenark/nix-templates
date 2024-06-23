@@ -36,6 +36,8 @@
           shellHook = ''
             echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs! v.22 󰎙        󰈸 🌟🌟🌟"
             alias p="pnpm"
+            alias n="npm"
+            alias y="yarn"
           '';
         };
       });
