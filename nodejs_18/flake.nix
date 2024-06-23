@@ -26,7 +26,7 @@
     in
     {
       # Development environment output
-      devShells = forAllSystems ({ pkgs }: {
+      devShells = forAllSystems ({ pkgs, pkgs-unstable }: {
         default = pkgs.mkShell {
           # The Nix packages provided in the environment
           packages = with pkgs-unstable; [
