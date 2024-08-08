@@ -38,6 +38,7 @@
           shellHook = ''
             echo "⭐⭐🌟 Welcome to a  Nix development environment for Gleam!   ⭐ 😎😎😎 "
           '';
+          MY_ENV="MY_VALUE";
         };
       });
     };
