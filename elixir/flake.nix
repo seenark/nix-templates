@@ -38,6 +38,7 @@
           shellHook = ''
             echo "💧🩸Welcome to a  Nix development environment for Elixir!   "
           '';
+          MY_ENV="MY_VALUE";
         };
       });
     };

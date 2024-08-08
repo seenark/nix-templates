@@ -37,6 +37,7 @@
           shellHook = ''
             echo "🔥🔥🔥 Welcome to a  Nix development environment for Nodejs v.18! 󰎙        󰈸 🌟🌟🌟"
           '';
+          MY_ENV="MY_VALUE";
         };
       });
     };

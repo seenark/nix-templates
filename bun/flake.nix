@@ -36,6 +36,7 @@
           shellHook = ''
             echo "🍞🍞🍞 Welcome to a  Nix development environment for Bun!         󰈸  🍞🍞🍞"
           '';
+          MY_ENV="MY_VALUE";
         };
       });
     };
