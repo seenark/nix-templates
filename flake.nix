@@ -12,12 +12,16 @@
         path = ./bun;
         description = "Init Bun project";
       };
-      nodejs = {
-        path = ./nodejs;
-        description = "Init Nodejs project";
+      nodejs-mise = {
+        path = ./nodejs/mise/latest;
+        description = "Init Nodejs project using mise";
       };
-      nodejs_18 = {
-        path = ./nodejs_18;
+      nodejs-nix = {
+        path = ./nodejs/nix/latest;
+        description = "Init Nodejs project using nix";
+      };
+      nodejs-18-nix = {
+        path = ./nodejs/nix/nodejs_18;
         description = "Init Nodejs v.18 project";
       };
       elixir = {
