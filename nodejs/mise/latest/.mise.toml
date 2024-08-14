@@ -1,8 +1,9 @@
 [tools]
 node = "latest"
-"npm:biome" = "latest"
-"npm:pnpm" = "latest"
 "npm:typescript" = "latest"
+"npm:biome" = "latest"
+"npm:corepack" = "latest"
+"npm:@antfu/ni" = "latest"
 
 [env]
 NODE_ENV = "development"
