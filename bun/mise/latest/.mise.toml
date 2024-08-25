@@ -1,5 +1,5 @@
 [tools]
-node = "latest"
+bun = "latest"
 "npm:typescript" = "latest"
 "npm:corepack" = "latest"
 "npm:@antfu/ni" = "latest"
