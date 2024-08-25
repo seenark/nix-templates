@@ -10,8 +10,16 @@ then select development environment template
 
 ### Bun
 
+#### mise env
+
 ```sh
-nix flake init -t "github:seenark/nix-templates#bun"
+nix flake init -t "github:seenark/nix-templates#bun-mise"
+```
+
+#### nix env
+
+```sh
+nix flake init -t "github:seenark/nix-templates#bun-nix"
 ```
 
 or use only it's shell

@@ -8,9 +8,13 @@
   outputs = { self, nixpkgs }: {
 
     templates = {
-      bun = {
-        path = ./bun;
-        description = "Init Bun project";
+      bun-mise = {
+        path = ./bun/mise/latest;
+        description = "Init Bun project (mise)";
+      };
+      bun-nix = {
+        path = ./bun/nix/latest;
+        description = "Init Bun project (nix)";
       };
       nodejs-mise = {
         path = ./nodejs/mise/latest;
